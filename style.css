@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500&family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ul {
+    list-style: none;
+    text-decoration: none; 
+    font-family:  'Poppins', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-right: 70px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between; 
+}
+.navbar a {
+   
+    text-decoration: none;
+    color: black;   
+}
+.navbar li:hover,
+a:hover {
+    color:blue;
+    cursor: pointer;
+}
+button{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    font-family: 'Lexend', sans-serif;
+    color: white;
+    margin-right: 50px;
+}
+.btn1:hover{
+    background-color:transparent;
+    border: 3px solid black;
+    color: black;
+    cursor: pointer;
+}
+.one{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.title{
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    margin-left:100px ;
+}
+.btn2{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+.btn2:hover{
+    background-color:transparent;
+    border: 3px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.bottom{
+    height: 150px;
+    width: 700px;
+    background-color:white;
+    opacity: 70%;
+    margin-top: 500px;
+    position: absolute;
+    margin-left: 330px;
+    display: flex;
+    justify-content: space-around;
+}
+.icon1{
+    display: flex;
+    margin-top: 25px;
+    height: 50px;
+    width: 100px;  
+}
+ 
+.verticale1{
+    border-right: 2px solid rgb(184, 181, 181);
+    height: 27px;
+    display: inline-block;
+   
+}
+.verticale{
+    border-left: 2px solid rgb(184, 181, 181);
+    height: 27px;
+    display: inline-block;
+   
+
+}
+.text{
+    display: flex;
+    justify-content: space-around;
+}
+.two{
+    margin: 50px;
+    height: 150vh;
+    width: 100%;
+    background-color: #FBF7F4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left:70px ; 
+    margin-top: 80px;
+   
+}
+.right2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+}
+.circles{
+    display: flex;
+    justify-content: space-around; 
+}
+.button2{ 
+  
+    height: 50px;
+    width: 100px;
+    color: black;
+    background-color:  #FBF7F4;
+    border: 2px solid black;
+    margin-top: 70px;
+    margin-left: 50px;
+    
+}
+.button2:hover{
+    color: blue;
+    cursor: pointer;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border: 3px solid #e79434;
+    border-radius: 50px;
+    
+}
+.porcent{
+    height: 100px;
+    width: 150px;
+    background-color: white;
+    opacity: 70%;
+    position: absolute;
+    
+    
+   
+}
+.orang{
+    border-left: 4px solid #e7a252;
+    height: 100px;
+    display: inline-block;
+}
+
+.three{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.top2{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rect1{
+    height: 100px;
+    width: 200px;
+    background-color:black;
+    border: 2px solid black;
+   
+}
+.rect2{
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    border: 2px solid rgb(214, 204, 204);
+    
+}
+.rect5{
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    border: 2px solid rgb(214, 204, 204);
+    
+}
+.rect6{
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    border: 2px solid rgb(214, 204, 204);
+    
+}
+.middle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 80%;
+    margin-top: 10px;;
+    margin-left: 150px;
+}
+.bottom2{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    width: 80%;
+    margin-left: 150px;
+    
+}
+.drte{ 
+    display: flex; 
+    height: 200px;
+    width: 500px;
+    font-family: 'Lexend', sans-serif;
+    opacity: 70%;
+    margin-top: 40px;
+}
+.drte ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.1rem;
+}
+.drte ul li::before{
+    content: "";
+    height: 8px;
+    border-radius: 50%;
+    background-color: #e79434;
+    font-weight: bolder;
+    display: inline-block;
+    width: 8px;
+    margin-right: 10px;
+}
+.cercle{
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background-color:#ec9450 ;
+}
+.droite{
+    margin-left: 20px;
+}
+.four{
+    width: 100%;
+    height: 150vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.rect3{
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border: 2px solid rgb(214, 204, 204);
+}
+.rect4{
+    height: 50px;
+    width: 200px;
+    background-color:black;
+    border: 2px solid black;
+}
+.top4{
+    display: flex;
+    flex-direction: column;
+    
+}
+.top5{
+    display: flex;
+    justify-content: space-around;
+
+    height: 100px;
+    margin-left: 100px;
+    width: 80%;
+    
+}
+.middle3{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 210px;
+}
+.button1{
+    height: 75px;
+    width: 150px;
+    color: black;
+    background-color: white;
+    border: 2px solid rgb(214, 204, 204);
+    font-family: 'Lexend', sans-serif;
+
+}
+
+.button1:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #F6F5F1 ;
+    height: 200vh;
+    width: 100%;
+    
+   
+}
+.foot1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: aqua;
+}
+.star{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.avis{
+    width: 50%;
+    background-color: #ec9450;
+}
+.user{
+    position: relative;
+    height: 500px;
+    width: 50%;
+    background-color: aqua;
+    
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+  
+  
+ 
+  
+
+    
+    
+
+
+
+
+
+
