@@ -90,7 +90,8 @@ button{
     justify-content: space-around;
     margin-top: 50px;
     height: 50px;
-    width: 250px;  
+    width: 250px;
+     
 }
    
 .text{
@@ -303,8 +304,8 @@ button{
     margin-bottom: 210px;
 }
 .button1{
-    height: 75px;
-    width: 150px;
+    height: 50px;
+    width: 120px;
     color: black;
     background-color: white;
     border: 2px solid rgb(214, 204, 204);
@@ -381,8 +382,8 @@ button{
     border-radius: 50%;
     border: 2px solid white;
     background-color: black;
-   right: 400px;
-   bottom: 200px;
+   right: 500px;
+   bottom: 240px;
 }
 .insta{
     position: absolute;
@@ -390,8 +391,8 @@ button{
     width: 35px;
     border-radius: 50%;
     background-color:#F6F5F1 ;
-    right: 350px;
-    bottom: 200px;
+    right: 450px;
+    bottom: 240px;
 }
 .linke{ 
     position: absolute;
@@ -400,8 +401,8 @@ button{
     border-radius: 50%;
     border: 2px solid white;
     background-color: black;
-    right: 300px;
-    bottom: 200px;
+    right: 400px;
+    bottom: 240px;
 }
 .socialmedia{
     display: flex;
@@ -461,6 +462,7 @@ button{
     border: 2px solid black;
     font-family: 'Lexend', sans-serif;
     font-size: 1.1rem;
+   text-align: center;
 }
 .recto3 input{
     width: 95%;
@@ -469,13 +471,19 @@ button{
     border: none;
     outline: none;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 20px;
     font-family: 'Lexend', sans-serif;
 }
 .recto3 input::placeholder{
     font-size: 1.1rem;
     font-family: 'Lexend', sans-serif;
     color: black;
+}
+.black{
+    background-color: black;
+}
+.centre{
+    margin-top: 20px;
 }
 .changer .gauche {
     transform: rotate(180deg);
