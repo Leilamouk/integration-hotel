@@ -79,7 +79,7 @@ button{
     width: 750px;
     background-color:white;
     opacity: 70%;
-    margin-top: 500px;
+    margin-top: 450px;
     position: absolute;
     margin-left: 330px;
     display: flex;
@@ -88,7 +88,7 @@ button{
 .icon1{
     display: flex;
     justify-content: space-around;
-    margin-top: 25px;
+    margin-top: 50px;
     height: 50px;
     width: 250px;  
 }
@@ -98,7 +98,7 @@ button{
     justify-content: space-around;
 }
 .two{
-    margin: 50px;
+    margin-top: 150px;
     height: 200vh;
     width: 100%;
     background-color: #FBF7F4;
@@ -111,20 +111,19 @@ button{
     justify-content: space-between;
     flex-direction: column;
     margin-left:70px ; 
-    margin-top: 80px;
+    
    
 }
 .right2{
     display: flex;
     flex-direction: column;
     margin-right: 80px;
-    position: relative;
+    height: 850px;
+    
 }
 .circles{
     display: flex;
-    justify-content: space-around; 
-    position: absolute;
-    bottom: 500px;
+    justify-content: space-around;
    
    
     
@@ -152,19 +151,19 @@ button{
     
 }
 .porcent{
-    height: 100px;
-    width: 150px;
+    height: 150px;
+    width: 200px;
     background-color: white;
     opacity: 70%;
     position: absolute;
-    top: 330px;
+    top: 280px;
     
     
    
 }
 .orang{
-    border-left: 4px solid #e7a252;
-    height: 100px;
+    border-left: 4px solid #fcba04;
+    height: 150px;
     display: inline-block;
 }
 
@@ -368,11 +367,12 @@ button{
     justify-content: space-around;
 }
 .footstart{
-    height: 400px;
+    height: 330px;
     width: 600px;
     background-color: black;
-    margin-left: 50px;
+    margin-right: 50px;
     position: relative;
+    margin-top: 150px;
 }
 .twit{
     position: absolute;
@@ -382,7 +382,7 @@ button{
     border: 2px solid white;
     background-color: black;
    right: 400px;
-   bottom: 250px;
+   bottom: 200px;
 }
 .insta{
     position: absolute;
@@ -391,7 +391,7 @@ button{
     border-radius: 50%;
     background-color:#F6F5F1 ;
     right: 350px;
-    bottom: 250px;
+    bottom: 200px;
 }
 .linke{ 
     position: absolute;
@@ -401,7 +401,7 @@ button{
     border: 2px solid white;
     background-color: black;
     right: 300px;
-    bottom: 250px;
+    bottom: 200px;
 }
 .socialmedia{
     display: flex;
@@ -415,7 +415,7 @@ button{
     list-style-type: none;
     width: 600px;
     justify-content: space-between;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: 30px;
    
     
@@ -424,9 +424,11 @@ button{
     list-style-type: none;
    display: flex;
   flex-direction: column;
-  
-    
 
+}
+.footend{
+    margin-top: 150px;
+    height: 100vh;
 }
 .footext span{
     font-weight: bold;
